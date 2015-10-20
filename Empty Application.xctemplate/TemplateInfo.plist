@@ -28,11 +28,9 @@
 					<dict>
 						<key>AppDelegate.m:implementation:methods:applicationdidFinishLaunchingWithOptions:body</key>
 						<string>self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-// Override point for customization after application launch.
 self.window.backgroundColor = [UIColor whiteColor];</string>
 						<key>AppDelegate.m:implementation:methods:applicationdidFinishLaunchingWithOptions:return</key>
-						<string>UIViewController *controller=[[UIViewController alloc]init];
-self.window.rootViewController = controller;
+						<string>self.window.rootViewController = [[UIViewController alloc]init];
 [self.window makeKeyAndVisible];
 return YES;
 </string>
@@ -44,7 +42,6 @@ return YES;
 					<dict>
 						<key>AppDelegate.swift:implementation:methods:applicationdidFinishLaunchingWithOptions:body</key>
 						<string>self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
-// Override point for customization after application launch.
 self.window?.backgroundColor = UIColor.whiteColor()</string>
 						<key>AppDelegate.swift:implementation:methods:applicationdidFinishLaunchingWithOptions:return</key>
 						<string>self.window?.rootViewController = UIViewController()
